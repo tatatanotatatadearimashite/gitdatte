@@ -1,0 +1,17 @@
+*{
+    background-color: rgb(252, 248, 244);
+}
+
+main{
+    text-align: center;
+    margin-top: 400px;
+}
+
+main h1{
+font-size: 25px;
+}
+
+input{
+    background-color: white;
+    height: 40px;
+}

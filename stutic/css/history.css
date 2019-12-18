@@ -1,0 +1,20 @@
+@media screen and (max-width:770px){
+
+table{
+    position: absolute;
+    height: 30px;
+    width: 10px;
+    background-color: white;
+}
+
+table td{
+    height: 20px;
+}
+
+body {
+    background-color: rgb(226, 226, 193);
+    top: 200px;
+    position: absolute;
+} 
+
+}

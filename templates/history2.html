@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+<!-- <link rel="stylesheet" href="../stutic/css/history.css"> -->
+
+{% block content %}
+<table border = "1">
+    {% for item in task_list %}
+    <tr>
+        <td>外出</td>
+        <td>食事</td>
+        <td>{{item["lunch"]}}</td>
+
+        <td>散歩</td>
+        <td>{{item["walk"]}}</td>
+
+        <td>映画館</td>
+        <td>{{item["movie"]}}</td>
+        
+        <td>お買い物</td>
+        <td>{{item["shopping"]}}</td>
+        
+        <td>ハイキング</td>
+        <td>{{item["hiking"]}}</td>
+
+        <td>SUNABACO</td>
+        <td>{{item["sunabaco"]}}</td>
+
+
+        <!-- <td><a href="/reset1/{{item['lunch', 'walk', 'movie', 'shopping', 'hiking']}}" onclick="return confirm('本当にリセットしますか？')">リセット</a></td> -->
+        <td><a href="/reset1" onclick="return confirm('本当にリセットしますか？')">リセット</a></td>
+    </tr>
+
+
+    
+    <tr>
+        <td>室内</td>
+        <td>ゲーム</td>
+        <td>{{item["game"]}}</td>
+        
+        <td>読書</td>
+        <td>{{item["read"]}}</td>
+        
+        <td>家で映画鑑賞</td>
+        <td>{{item["homemovie"]}}</td>
+        
+        <td>掃除・片付け</td>
+        <td>{{item["clean"]}}</td>
+        
+        <td>ダラダラ</td>
+        <td>{{item["relax"]}}</td>
+
+        <td></td>
+        <td></td>
+        
+        <!-- <td><a href="/edit/{{item['id']}}">編集だぞ</a></td> -->
+        <!-- <td><a href="/reset2/{{item['game', 'read', 'homemovie', 'clean', 'relax']}}" onclick="return confirm('本当にリセットしますか？')">リセット</a></td> -->
+        <td><a href="/reset2" onclick="return confirm('本当にリセットしますか？')">リセット</a></td>
+    </tr>
+
+    {% endfor %}
+</table>
+
+<!-- <button><a href="/add">リスト追加</a></button> -->
+<button><a href="/logout">ログアウト</a></button>
+
+
+{% endblock %}

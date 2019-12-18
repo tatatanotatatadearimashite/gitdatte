@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="../stutic/css/keijiban.css">
+
+<main>
+<form action="/keijiban" method="post">
+    <!-- 名前：<input type="text" name="name"> -->
+<!-- <h1>ここに文章を入力してください</h1> -->
+<textarea name="keijiban" rows="4" cols="40"></textarea>
+<br>
+<input type="submit" name="save" value="送信"><input type="reset" value="リセット">
+</form>
+</main>
+
+{% endblock %}

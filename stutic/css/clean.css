@@ -1,0 +1,20 @@
+@media screen and (max-width:770px){
+
+    body{
+        text-align: center;
+        background-color: rgb(168, 236, 233);
+    }
+    
+    body span{
+        color: rgb(230, 34, 164);
+    }
+    
+    img{
+        position: absolute;
+        height: 600px;
+        width: 500px;
+        left: 130px;
+    }
+    
+    
+    }

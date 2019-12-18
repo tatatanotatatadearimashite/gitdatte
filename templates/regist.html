@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="../stutic/css/regist.css">
+
+<main>
+<h1>ここに名前とパスワードを書いてください</h1>
+<form action="/regist" method="POST">
+    名前：<input type="text" name="name">
+    パスワード：<input type="password" name="password">
+    <input type="submit" name="save" value="登録">
+</form>
+</main>
+
+{% endblock %}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../stutic/css/seisaku.css">
+    <title>Document</title>
+</head>
+
+<body>
+<header>
+    <div class="header-left">
+        <h1>title</h1>
+    </div>
+
+    <div class="header-light">
+        <!-- <button> <a href="./login.html">ログイン</a></button>
+        <button> <a href="./regist.html">新規登録</a></button> -->
+        <button> <a href="/login">ログイン</a></button>
+        <button> <a href="/regist">新規登録</a></button>
+    </div>
+</header>
+
+<main>
+    <div class="bg-image">
+        <div class="bg-mask">
+            <h1>はじめに</h1>
+            <h1>「ああ、毎日が休みだったらなあ」と、誰しも一度は考えたことがあるでしょう。自分のやりたいことが自由にできる時間が手に入るのにな、と。</h1>
+            <h1>しかし、実際休日になってみると、やることが見つからず、自分の理想とはかけ離れた過ごし方をしてしまいがちなものです。</h1>
+            <h1>そして、こんなはずじゃなかったのに、と後悔しながら平日の朝を迎えてしまいます。</h1>
+            <h1>このアプリは、そんな生活を改善しようと製作したものです。休日、ダラダラしてしまいそうな時、そして自分の心の奥底では何かもっと有意義な時間の過ごし方があるはずだと思っているときにお使いください。</h1>
+        </div>
+    </div>
+</main>
+
+<footer>
+<form id="form" action="json/request.json">
+<div class="form-group">
+    <label for="inputName">名前</label>
+    <input type="text" class="form-control" id="inputName" name="name">
+</div>
+<div class="form-group">
+    <label for="inputEmail">メール</label>
+    <input type="email" class="form-control" id="inputEmail" name="email">
+</div>
+<div class="form-group">
+    <label for="inputComment">コメント</label>
+    <textarea class="form-control" id="inputComment" name="comment" rows="6"></textarea>
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form></footer>
+</body>
+</html>

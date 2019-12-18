@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="../stutic/css/login.css">
+
+<main>
+<h1>ここに名前とパスワードを入力してください</h1>
+<form action="/login" method="post">
+    名前：<input type="text" name="name">
+    パスワード：<input type="password" name="password">
+    <input type="submit" name="save" value="ログイン">
+    <td><a href="/regist">新規登録</a></td>
+</form>
+</main>
+
+{% endblock %}

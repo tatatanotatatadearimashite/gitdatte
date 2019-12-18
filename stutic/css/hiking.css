@@ -1,0 +1,21 @@
+@media screen and (max-width:770px){
+
+    body{
+        text-align: center;
+        background-color: rgb(235, 236, 147);
+        /* color:rgb(238, 52, 198); */
+    }
+    
+    body span{
+        color: rgb(92, 52, 238);
+    }
+    
+    img{
+        position: absolute;
+        height: 600px;
+        width: 500px;
+        left: 130px;
+    }
+    
+    
+    }

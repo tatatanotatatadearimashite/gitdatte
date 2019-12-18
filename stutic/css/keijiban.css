@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(242, 242, 255);
+}
+
+main{
+    text-align: center;
+    margin-top: 400px;
+}
+
+main h1{
+font-size: 25px;
+}
+
+input{
+    background-color: white;
+    height: 40px;
+}
+
+textarea{
+    background-color: white;
+}
